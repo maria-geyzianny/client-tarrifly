@@ -10,7 +10,7 @@ const FormComponent: React.FC = () => {
       <Label>Page Description:</Label>
       <Input type="text" />
 
-      <Button type="submit">Enviar</Button>
+      <Button type="submit">Send</Button>
     </Form>
   );
 };

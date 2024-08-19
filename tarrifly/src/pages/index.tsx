@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FormComponent from '../components/Form/FormComponent';
 
-const Container = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,25 +11,25 @@ const Container = styled.div`
   background-color: #f0f0f0;
 `;
 
-const Title = styled.h1`
-  
+export const Title = styled.h1`
   font-size: 3rem;
+  font-weight: 700;
   color: ${({ theme }) => theme.colors.primary};
   margin-bottom: 0.5rem;
-  margin-right: 1rem;
-
-
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-right: 1.5rem;
 `;
 
-const SubTitle = styled.h2`
+export const SubTitle = styled.h2`
   font-size: 1.5rem;
+  font-weight: 400;
   color: #555;
-  margin-bottom: 3rem;
-  margin-right: 5.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-right: 6rem;
 
-
-  
 `;
+
 
 const Home: React.FC = () => {
   return (
